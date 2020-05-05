@@ -1,3 +1,7 @@
+https://romansuvorkov.github.io/sse-ws2
+
+[![Build status](https://ci.appveyor.com/api/projects/status/7js654pkxulj171a?svg=true)](https://ci.appveyor.com/project/romansuvorkov/sse-ws2)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов

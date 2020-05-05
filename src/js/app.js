@@ -1,5 +1,5 @@
 import FootballWidget from './FootballWidget';
 
 
-const footballWidget = new FootballWidget('http://localhost:7070/sse');
+const footballWidget = new FootballWidget('https://football-widget.herokuapp.com/sse');
 footballWidget.init();

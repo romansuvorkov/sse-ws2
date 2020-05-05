@@ -37,11 +37,12 @@ export default class FootballWidget {
       </div>
       `;
     this.widgetField.appendChild(this.newMessage);
+    this.widgetField.scrollTo(0, this.newMessage.offsetTop);
   }
 
   addEventListeners() {
     const eventSource = new EventSource(this.url);
-    
+
     eventSource.addEventListener('gameReport', (event) => {
       this.recieveMessage(event.data);
     });
